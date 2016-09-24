@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf("TO CHECK A NUMBER IS POSITIVE,NEGATIVE OR ZERO \n");
+printf("-------------------------------------------------------");
+printf("Enter the number : \n");
+scanf("%d",&a);
+if(a==0)
+  printf("The entered number is zero");
+else if(a>0)
+  printf("The entered number is positive");
+else
+  printf("The entered number is negative");
+}
